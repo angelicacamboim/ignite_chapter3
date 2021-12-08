@@ -2,7 +2,7 @@ import Head from 'next/head' //title dinamico
 import { SubscribeButton } from '../components/SubscribeButton'
 import styles from './home.module.scss'
 import { GetStaticProps } from 'next'
-import { stripe } from '../components/services/stripe'
+import { stripe } from '../services/stripe'
 
 //chamadas api e gerar a pagina
 //client-side (depois da pagina ter carregado)
